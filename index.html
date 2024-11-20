@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" id="favicon" type="image/png" href="https://png.pngtree.com/png-clipart/20230801/original/pngtree-blood-drop-donor-vector-illustration-picture-image_7726078.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Life Drop</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+
+    <script>
+      const originalTitle = document.title;
+      const awayTitle = "Brace Yourself";
+      const originalFavicon = "https://png.pngtree.com/png-clipart/20230801/original/pngtree-blood-drop-donor-vector-illustration-picture-image_7726078.png"; 
+      const heartFavicon = "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22red%22><path d=%22M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 6.5 3.5 5 5.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5 18.5 5 20 6.5 20 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z%22/></svg>";
+
+      const setFavicon = (iconUrl) => {
+        const favicon = document.getElementById("favicon");
+        if (favicon) {
+          favicon.href = iconUrl;
+        }
+      };
+
+      document.addEventListener("visibilitychange", function() {
+        if (document.hidden) {
+          document.title = awayTitle;
+          setFavicon(heartFavicon); 
+        } else {
+          document.title = originalTitle;
+          setFavicon(originalFavicon); 
+        }
+      });
+    </script>
+  </body>
+</html>

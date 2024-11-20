@@ -1,0 +1,28 @@
+.eligibility-criteria {
+	background: linear-gradient(
+			to right,
+			var(--dark) 0%,
+			var(--dark_overlay) 300%
+		),
+		url("../../../assets/images/blood-donation(1).jpg") center/cover
+			no-repeat;
+}
+
+.tips-for-managing-blood-loss {
+	background: linear-gradient(
+			to right,
+			var(--dark) 0%,
+			var(--dark_overlay) 300%
+		),
+		url("../../../assets/images/blood-donation(4).jpg") center/cover
+			no-repeat;
+}
+
+
+.shreya {
+    transition: transform 0.3s ease; /* Smooth transition for scaling */
+
+    &:hover {
+        transform: scale(1.05); /* Scale up on hover */
+    }
+}

@@ -1,0 +1,37 @@
+.eligibility-criteria1 {
+	background: linear-gradient(
+			to right,
+			var(--dark) 0%,
+			var(--dark_overlay) 300%
+		),
+		url("https://media.istockphoto.com/id/1476567924/photo/world-donor-day-concept-with-hand-holding-paper-red-drop-on-white-background.jpg?s=612x612&w=0&k=20&c=dZf9lELFYQ6rn20aX-2b_EmgjbiwOZ2ldUl9FtsmsnQ=") center/cover
+			no-repeat;
+}
+
+.eligibility-criteria2 {
+	background: linear-gradient(
+			to right,
+			var(--dark) 0%,
+			var(--dark_overlay) 300%
+		),
+		url("https://media.istockphoto.com/id/171149326/photo/blood-donation-concept.jpg?s=612x612&w=0&k=20&c=HlLhKlUjfuELJ-KZxqAQEFSMOKrCmWnBhX28iPqsSLg=") center/cover
+			no-repeat;
+}
+
+.tips-for-managing-blood-loss {
+	background: linear-gradient(
+			to right,
+			var(--dark) 0%,
+			var(--dark_overlay) 300%
+		),
+		url("../../../assets/images/blood-donation(4).jpg") center/cover
+			no-repeat;
+}
+
+.shreya {
+    transition: transform 0.3s ease; 
+
+    &:hover {
+        transform: scale(1.05); 
+    }
+}

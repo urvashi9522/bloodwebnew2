@@ -1,0 +1,35 @@
+
+.quote {
+    background: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.8)50%,
+		rgba(158, 36, 27, 0.7) 100%
+    ),
+    url("https://thumbs.dreamstime.com/z/human-heart-shaped-blood-cells-background-d-illustration-77031816.jpg") center/cover
+        no-repeat;
+    background-attachment: fixed; 
+}
+
+.host-drive-quote {
+    background: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.8)50%,
+        rgba(158, 36, 27, 0.7) 100%
+    ),
+    url("https://i0.wp.com/post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/05/GettyImages-1129729012_header-1024x575.jpg?w=1155&h=1528") center/cover
+        no-repeat;
+}
+
+.need-blood-quote {
+    background: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.8)50%,
+        rgba(158, 36, 27, 0.7) 100%
+    ),
+    url("https://www.metrohospitals.com/wp-content/uploads/2024/01/blood-bank.jpg") center/cover
+        no-repeat;
+}
+
+.quote-wrapper {
+    background-attachment: fixed;
+}

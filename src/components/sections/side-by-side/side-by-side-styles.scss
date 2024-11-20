@@ -1,0 +1,74 @@
+.side-col-image
+{
+    background-size: cover;
+    position: relative;
+}
+
+.donate-blood-with-lifedrop
+{
+    background: var(--dark) url('https://marvel-b1-cdn.bc0a.com/f00000000290269/www.riversideonline.com/-/media/patients-and-visitors/healthy-you/blood-donation.png') no-repeat center;
+    background-size: cover;
+	position: relative;
+}
+
+.why-donate-blood
+{
+    background: var(--dark) url('https://www.singlecare.com/blog/wp-content/uploads/2019/12/Blog_010620_Who_Can_Cant_Donate_Blood.png') no-repeat center;
+    background-size: cover;
+	position: relative;
+}
+
+.hosting-blood-drive
+{
+    background: var(--dark) url('https://media.istockphoto.com/id/1403182301/photo/preparation-for-blood-test-by-female-doctor-medical-uniform-on-the-table-in-white-bright-room.jpg?s=612x612&w=0&k=20&c=U5lfNS8V5aIVrQ4jxd6ST-ayXWXDfV4biSYWdBxGZbQ=') no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+
+.benefits-host-drive
+{
+    background: var(--dark) url('https://media.istockphoto.com/id/1445531404/photo/world-blood-donation-donor-day-and-save-life.jpg?s=612x612&w=0&k=20&c=BWWNmtNDQgd4kYClYJAEf9sH3W5gxeC46zUz0c9vfpg=') no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+
+@keyframes zoomFade {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.05);
+        opacity: 0.9;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.donate-blood-with-lifedrop,
+.why-donate-blood,
+.hosting-blood-drive,
+.benefits-host-drive {
+    background-size: cover;
+    position: relative;
+    animation: zoomFade 4s ease-in-out infinite; 
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.donate-blood-with-lifedrop {
+    animation-delay: 1s;
+}
+
+.why-donate-blood {
+    animation-delay: 1s; 
+}
+
+.hosting-blood-drive {
+    animation-delay: 1s; 
+}
+
+.benefits-host-drive {
+    animation-delay: 1s; 
+}
